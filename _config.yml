@@ -8,12 +8,12 @@ url: "http://CloudMagician.github.io/"
 username: CloudMagician
 user_title: CloudMagician
 email: luzx1916@mails.jlu.edu.cn
-twitter_username: CloudMagician
+twitter_username: CloudMagician94
 github_username:  CloudMagician
 gplus_username:  CloudMagician
 linkedin_public_url: CloudMagician
 disqus_username: CloudMagician
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+profile_picture: /assets/img/profile_picture.jpg
 
 # Build settings
 markdown: kramdown
