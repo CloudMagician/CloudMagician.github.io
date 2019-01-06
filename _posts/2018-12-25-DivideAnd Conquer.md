@@ -11,7 +11,7 @@ categories:
 - Algorithm
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="../MathJax/MathJax.js?config=default"></script>
 
 ## 求解思想
 
@@ -59,24 +59,24 @@ $$T(n)=\begin{cases}g(n)&\text{$n$足够小}\\2T(n/2)+f(n)&\text{否则}\end{cas
 ### 算法
 
 ```c
-int main(){
-    int arr[] = {1,2,3,4,5,6,7,8,9};
-    int left,right,mid,fin;
-    fin = 3;
+int BinarySearch(int* arr,int fin) {
+    int left,right,mid;
     left = 0;
-    right = sizeof(arr)/sizeof(arr[0]) - 1;
+    right = sizeof(arr) / sizeof(arr[0]) - 1;
     
-    while(left <= right) {
-        mid = (left+right) / 2;
+    while (left <= right) {
+        mid = (left + right) / 2;
         if (arr[mid] == fin) {
-            printf("find：%d\n", mid);
-            return 0;
+            return mid;
         }
-        if (mid < fin)	left = mid + 1;
-        else if (mid > fin)	right = mid - 1;
+        if (mid < fin) {
+            left = mid + 1;
+        } else if (mid > fin) {
+            right = mid - 1;
+        }
     }
-    printf("not find");
-    return 0;
+    
+    return -1;  //not found
 }
 ```
 
