@@ -2,7 +2,7 @@
 layout:	post
 title:	"Dynamic Programming"
 image:	''
-date:	2019-1-3 9:14:52
+date:	2019-1-3 09:14:52
 tags:	
 - Algorithm
 - Exam
