@@ -160,6 +160,12 @@ $$
 
 ### Bezier曲线
 
+$$
+P(u)=\frac{1}{6}\left(\begin{matrix}t^3&t^2&t&1\end{matrix}\right)\left[\begin{matrix}-1&3&-3&1\\3&-6&3&0\\-3&3&0&0\\1&0&0&0\end{matrix}\right]\left[\begin{matrix}P_i\\P_{i+1}\\P_{i+2}\\P_{i+3}\end{matrix}\right]
+$$
+
+
+
 #### Bezier曲线的拼接
 
 * $$C^1$$连续：$$Q_1-P_0=a(P_3-P_2)$$
@@ -186,7 +192,9 @@ $$
 #### 均匀B样条曲线的拼接问题
 
 $$
-Q_i(0)=\frac{1}{6}(P_i+4P_{i+1}+P_{i+2})
+Q_i(0)=\frac{1}{6}(P_i+4P_{i+1}+P_{i+2})\\
+Q'_i(0)=\frac{1}{2}(P_{i+2}-P_i)\\
+Q''_i(0)=P_i-2P_{i+1}+P_{i+2}
 $$
 
 ## 五、图形运算
