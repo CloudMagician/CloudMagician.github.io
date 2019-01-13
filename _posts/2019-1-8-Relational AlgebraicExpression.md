@@ -45,5 +45,13 @@ categories:
 ### 附加的关系代数运算
 
 * 交运算：$$\bigcap$$（$$r\cap s=r-(r-s)$$）
-* 自然连接：$$\bowtie​$$
+* 自然连接：$$\Join​$$
+* 赋值：$$\to​$$
+* 左外连接：$$\sqsupset\Join​$$
+* 右外连接：$$\Join\sqsubset​$$
+* 全外连接：$$\sqsupset\Join\sqsubset$$
 
+### 扩展的关系代数运算
+
+* 广义投影
+* 聚集：聚集函数
