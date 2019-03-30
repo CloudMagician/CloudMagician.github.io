@@ -2,7 +2,7 @@
 layout:	post
 title:	"Branch and Bound Method"
 image:	''
-date:	2019-1-5 13:54:34
+date:	2019-01-05 13:54:34
 tags:	
 - Algorithm
 - Exam

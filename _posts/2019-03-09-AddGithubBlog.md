@@ -2,7 +2,7 @@
 layout:	post
 title:	"Add Github Blog"
 image:	''
-date:	2019-3-9 13:19:53
+date:	2019-03-09 13:19:53
 tags:	
 - iOS Club
 description: 'Write for iOS Club.'

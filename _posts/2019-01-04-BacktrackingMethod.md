@@ -2,7 +2,7 @@
 layout:	post
 title:	"Backtracking Method"
 image:	''
-date:	2019-1-4 13:34:01
+date:	2019-01-04 13:34:01
 tags:	
 - Algorithm
 - Exam

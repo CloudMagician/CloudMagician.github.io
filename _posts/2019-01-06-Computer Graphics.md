@@ -2,7 +2,7 @@
 layout:	post
 title:	"Computer Graphics"
 image:	''
-date:	2019-1-6 08:30:49
+date:	2019-01-06 08:30:49
 tags:	
 - Exam
 description: 'My life for pass!'
