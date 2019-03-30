@@ -1,0 +1,108 @@
+---
+layout:	post
+title:	"Java Text"
+image:	''
+date:	2019-3-16 12:15:20
+tags:	
+- Java
+- exam
+description: 'Write for csp.'
+categories:
+---
+
+## Java lang 库
+
+### Math
+
+## Java util 库
+
+### Scanner
+
+* next() ：
+  1. 一定要读取到有效字符后才可以结束输入。
+  2. 对输入有效字符之前遇到的空白，next() 方法会自动将其去掉。
+  3. 只有输入有效字符后才将其后面输入的空白作为分隔符或者结束符。 
+  4. next() 不能得到带有空格的字符串。
+* nextLine() ：
+  1. 以Enter为结束符,也就是说 nextLine()方法返回的是输入回车之前的所有字符。 
+  2. 可以获得空白。
+
+### String
+
+* String转换
+
+  ```java
+  String s = String.valueOf( value); // 其中 value 为任意一种数字类型。 
+  
+  String s = "169"; 
+  
+  byte b = Byte.parseByte( s ); 
+  
+  short t = Short.parseShort( s ); 
+  
+  int i = Integer.parseInt( s ); 
+  
+  long l = Long.parseLong( s ); 
+  
+  Float f = Float.parseFloat( s ); 
+  
+  Double d = Double.parseDouble( s );
+  ```
+
+* split函数是用于使用特定的切割符（regex）来分隔字符串成一个字符串数组，函数返回是一个数组。在其中每个出现regex的位置都要进行分解。
+
+* 按字典顺序比较两个字符串  a-z
+   * int compareTo(String str)
+   * int compareToIgnoreCase(String str) 
+
+* 大小写：
+
+   * boolean equals(Object obj):比较字符串的内容是否相同，严格区分大小写
+   * boolean equalsIgnoreCase(String str):比较字符串的内容是否相同，不考虑大小写
+   * String toLowerCase():把字符串转小写
+   * String toUpperCase():把字符串转大写
+
+* 去除字符串两空格：String trim()；再读取内容是可以防止出错。
+
+### Collection
+
+* 可用的自定义排序：
+
+  ```java
+  Collections.sort(var, new Comparator<classname>() {
+                              public int compare(classname o1, classname o2){
+                                  return 0;//更改排序
+                              }
+                          });
+  ```
+
+### regex
+
+* start 和 end 方法：
+
+  ```java
+  import java.util.regex.Matcher;
+  import java.util.regex.Pattern;
+   
+  public class RegexMatches
+  {
+      private static final String REGEX = "\\bcat\\b";
+      private static final String INPUT =
+                                      "cat cat cat cattie cat";
+   
+      public static void main( String args[] ){
+         Pattern p = Pattern.compile(REGEX);
+         Matcher m = p.matcher(INPUT); // 获取 matcher 对象
+         int count = 0;
+   
+         while(m.find()) {
+           count++;
+           System.out.println("Match number "+count);
+           System.out.println("start(): "+m.start());
+           System.out.println("end(): "+m.end());
+        }
+     }
+  }
+  ```
+
+  
