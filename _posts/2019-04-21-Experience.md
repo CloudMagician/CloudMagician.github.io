@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"CV"
+title:	"Experience"
 image:	''
 date:	2019-04-20 14:34:10
 tags:	
