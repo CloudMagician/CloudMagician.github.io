@@ -2,7 +2,7 @@
 layout:	post
 title:	"Introduction of Compilation Principle"
 image:	''
-date:	2019-03-30 15:44:22
+date:	2019-04-30 15:44:22
 tags:	
 - Exam
 description: 'My life for pass!'
