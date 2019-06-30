@@ -2,13 +2,15 @@
 layout:	post
 title:	"Semantic Analysis"
 image:	''
-date:	2019-05-22 15:02:28
+date:	2019-05-03 15:02:28
 tags:	
 - Exam
 description: 'My life for pass!'
 categories:
 - Compilation Principle
 ---
+
+<script type="text/javascript" src="../MathJax/MathJax.js?config=default"></script>
 
 # 语义分析
 

@@ -11,6 +11,7 @@ categories:
 ---
 
 <script type="text/javascript" src="../MathJax/MathJax.js?config=default"></script>
+
 # 词法分析器概述
 
 * 功能：读源程序的符号序列，逐个拼出单词，并构造相应的内部表示，同时检查源程序中的词法错误。
